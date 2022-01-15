@@ -1,0 +1,10 @@
+{
+  "go.toolsEnvVars": {
+    "GOOS": "js",
+    "GOARCH": "wasm",
+  },
+  "gopls": {
+    "experimentalWorkspaceModule": true,
+  },
+  "workbench.iconTheme": "material-icon-theme",
+}
