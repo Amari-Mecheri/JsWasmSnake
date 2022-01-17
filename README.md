@@ -8,7 +8,7 @@ https://github.com/Amari-Mecheri
 <br>GoSnake, ReactSnake and AngularSnake where made prior to this version
 <br>ReactSnake and AngularSnake use a rewritten TypeScript version of the go files.
 <br>With this WebAssembly version, the aim is the direct usage of the original go files
-<br>Hense, the game logic was published to https://github.com/Amari-Mecheri/GoSnakeLogic
+<br>Hence, the game logic was published to https://github.com/Amari-Mecheri/GoSnakeLogic
 <br>=> One source file is shared among different platform specific versions.
 
 - JsWasmSnake contains the following files:
