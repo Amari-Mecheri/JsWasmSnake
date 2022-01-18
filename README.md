@@ -19,7 +19,7 @@ https://github.com/Amari-Mecheri
     => it is compiled to gameState.wasm with tinygo.
   	* wasm_exec.js is provided by tinygo (it has to match the version). It is the "glue" between go=>wasm and js
   	* initWsm.js loads gameState.wasm and instiantes it. Original file: https://blog.suborbital.dev/foundations-wasm-in-golang-is-fantastic
-    => Added a custom event fired when the wasm functions are ready to use
+    <br>=> Added a custom event fired when the wasm functions are ready to use
   * The view model: launchGame.js controls the game (gamestate and events) and updates the view
     <br>=> it is an adapted copy from the Angular version.
     <br>=> The functions from createView.js are called synchronously when the state is modified.
