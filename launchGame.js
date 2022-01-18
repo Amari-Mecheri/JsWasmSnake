@@ -1,16 +1,15 @@
 var FreeSpace, CandyBody, SnakePart
 var score, highScore,snakeLength,snakePosition
 
-(()=>{
-  document.addEventListener("wasmLoaded",()=>{
-        updateMessage("Game Over")
-        FreeSpace = FreeSpace()
-        CandyBody = CandyBody()
-        SnakePart = SnakePart()
-        initGame()
-        document.addEventListener("keydown", handleKeyDown);    
-    })
- })()
+// launches the game once wasm is ready
+document.addEventListener("wasmLoaded",()=>{
+      updateMessage("Game Over")
+      FreeSpace = FreeSpace()
+      CandyBody = CandyBody()
+      SnakePart = SnakePart()
+      initGame()
+      document.addEventListener("keydown", handleKeyDown);    
+  })
 
 
 function initGame(){
