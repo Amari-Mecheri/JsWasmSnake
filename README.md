@@ -35,7 +35,13 @@ https://github.com/Amari-Mecheri
 - make fastify-install
 - make tinygo-install
 
-### Remains:
+## Remarks:
+
+- When compiled with go build, the resulting WASM file is rather impressive in size even though the go program is simple and uses only crypto/rand and math/big libraries.
+
+- Tinygo help reduce the size by a large amount but it is to be noted that not all functions/libraries are available (tinygo 0.21). It took me some time to realize that the issues I had with crypto/rand (resolved with tinygo 0.21) and json.Marshal were [due to tinygo](https://github.com/tinygo-org/tinygo/issues/2519)
+
+## Remains:
 - Unit tests
 - Exceptions and errors handling process
 <br><br>
