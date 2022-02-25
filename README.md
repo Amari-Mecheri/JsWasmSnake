@@ -2,6 +2,8 @@ amari.mecheri@gmail.com
 https://github.com/Amari-Mecheri
 # A version of the Snake Game using HTML/CSS/JavaScript and WebAssembly
 
+https://wizardly-hawking-f48a5e.netlify.app/
+
 ### Architecture of JsWasmSnake:
 
 - This version is a port of GoSnake to JavaScript + WebAssembly
