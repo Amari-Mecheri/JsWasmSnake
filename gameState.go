@@ -32,6 +32,7 @@ func main() {
 	js.Global().Set("MoveDown", js.FuncOf(MoveDown))
 	js.Global().Set("MoveUp", js.FuncOf(MoveUp))
 	js.Global().Set("SnakePosition", js.FuncOf(SnakePosition))
+	js.Global().Set("SnakeDirection", js.FuncOf(SnakeDirection))
 	js.Global().Set("SnakeSize", js.FuncOf(SnakeSize))
 	<-make(chan bool)
 }
@@ -140,6 +141,19 @@ func convertPositionToJson(position common.Position) string {
 	// json.Marshal(struct) => panic: unimplemented: (reflect.Type).Name()
 	var result string = "{\"X\":" + fmt.Sprint(position.X) +
 		",\"Y\":" + fmt.Sprint(position.Y) + "}"
+	return result
+}
+
+func SnakeDirection(this js.Value, args []js.Value) interface{} {
+	direction, _ := aGameState.SnakeDirection()
+	return convertDirectionToJson(direction)
+}
+
+func convertDirectionToJson(direction common.Direction) string {
+	// tinygo 0.21 doesn't support full reflect
+	// json.Marshal(struct) => panic: unimplemented: (reflect.Type).Name()
+	var result string = "{\"DX\":" + fmt.Sprint(direction.DX) +
+		",\"DY\":" + fmt.Sprint(direction.DY) + "}"
 	return result
 }
 

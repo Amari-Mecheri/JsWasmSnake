@@ -2,6 +2,8 @@ github.com/Amari-Mecheri/GoSnakeLogic v0.0.0-20220113234451-2654db1ca14d h1:QxZo
 github.com/Amari-Mecheri/GoSnakeLogic v0.0.0-20220113234451-2654db1ca14d/go.mod h1:arGcL+z4U/LMn2XhPjixULBknKjOop2nudTvaP8NWxk=
 github.com/Amari-Mecheri/GoSnakeLogic v0.0.0-20220116124556-d78bb812e8c7 h1:ogV/JTDk03tL8VnA5iYewNbRFo6eG4fk4iOxBWeOg6U=
 github.com/Amari-Mecheri/GoSnakeLogic v0.0.0-20220116124556-d78bb812e8c7/go.mod h1:arGcL+z4U/LMn2XhPjixULBknKjOop2nudTvaP8NWxk=
+github.com/Amari-Mecheri/GoSnakeLogic v0.0.0-20220228160912-c2c6d8238217 h1:mLogoZPztqxcazbxo8+7uFECW/T46HdwQlIg3U3BftA=
+github.com/Amari-Mecheri/GoSnakeLogic v0.0.0-20220228160912-c2c6d8238217/go.mod h1:arGcL+z4U/LMn2XhPjixULBknKjOop2nudTvaP8NWxk=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
